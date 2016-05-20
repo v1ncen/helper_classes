@@ -1,0 +1,58 @@
+// Text font's variables
+// --------------------------------------------
+$regular-sans: 'Helvetica';
+$bold-sans: 'bold sans';
+$italic-regular-sans: 'italic regular sans';
+italic-regular-serif: 'italic regular serif';
+
+// Text sizes classes
+// --------------------------------------------
+.text--14 {
+  font-size: rem-calc(14px);
+}
+
+.text--12 {
+  font-size: rem-calc(12px);
+}
+
+.text--smaller-80 {
+  font-size: 80%;
+}
+
+// Text weights & styles
+// --------------------------------------------
+.regular-sans {
+  font-family: $regular-sans, $body-font-family;
+}
+
+.bold-sans {
+  font-family: $bold-sans, $body-font-family;
+}
+
+.italic-regular-sans {
+  font-family: $italic-regular-sans, $body-font-family;
+}
+
+.italic-regular-serif {
+  font-family: $italic-regular-serif, $body-font-family;
+}
+
+// Specifics type settings
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.letter-spaced {
+  letter-spacing: .1rem;
+}
+
+.capitalized {
+  text-transform: uppercase;
+}
+
+// Icons font size
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.fi-medium {
+  font-size: 20px;
+}
+
+.fi-large {
+  font-size: 32px;
+}

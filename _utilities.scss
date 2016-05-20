@@ -1,0 +1,22 @@
+// Selection fixes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+:focus { // Remove Safari glow
+  outline-color: transparent;
+  outline-style: none;
+}
+
+// Width classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.full-width {
+  width: 100%;
+}
+
+// Corners classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.rounded {
+  border-radius: 9999px;
+}
+
+.radius {
+  border-radius: 3px;
+}

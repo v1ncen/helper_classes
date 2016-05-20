@@ -1,0 +1,27 @@
+// Colorization classes: fill-- or text--
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+@each $name, $color in (
+        // Add our colors…
+        'white': white
+        'grey': $grey,
+        'grey-thin': $grey--thin,
+        'grey-medium': $grey--medium,
+) {
+  .fill--#{$name} {
+    background-color: $color !important;
+
+    &.button:hover {
+      background-color: darken($color, 20%) !important;
+    }
+  }
+
+  .text--#{$name} {
+    color: $color;
+  }
+}
+
+// Hr colors
+// ------------------------------------
+hr.hr--grey-thin {
+  border-bottom-color: $grey--light;
+}

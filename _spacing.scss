@@ -1,0 +1,160 @@
+// No margin classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.no-margin-after {
+  margin-bottom: 0 !important;
+}
+.no-margin-before {
+  margin-top: 0 !important;
+}
+.no-margins {
+  margin: 0;
+}
+
+// Margin After & Before classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.small-margin-after {
+  margin-bottom: rem-calc(12) !important;
+}
+
+.small-margin-before {
+  margin-top: rem-calc(12) !important;
+}
+
+.medium-margin-after {
+  margin-bottom: rem-calc(18) !important;
+}
+
+.medium-margin-before {
+  margin-top: rem-calc(18) !important;
+}
+
+.large-margin-after {
+  margin-bottom: rem-calc(32) !important;
+}
+
+.large-margin-before {
+  margin-top: rem-calc(32) !important;
+}
+
+.xlarge-margin-after {
+  margin-bottom: rem-calc(62) !important;
+}
+
+.xlarge-margin-before {
+  margin-top: rem-calc(62) !important;
+}
+
+// Margin Right & Left classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.small-margin-right {
+  margin-right: rem-calc(6) !important;
+}
+
+.medium-margin-right {
+  margin-right: rem-calc(12) !important;
+}
+
+.large-margin-right {
+  margin-right: rem-calc(24) !important;
+}
+
+.small-margin-left {
+  margin-left: rem-calc(6) !important;
+}
+
+.medium-margin-left {
+  margin-left: rem-calc(12) !important;
+}
+
+.large-margin-left {
+  margin-left: rem-calc(24) !important;
+}
+
+// No padding classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.no-paddings {
+  padding: 0;
+}
+
+.no-padding-after {
+  padding-bottom: 0 !important;
+}
+
+.no-padding-before {
+  padding-top: 0 !important;
+}
+
+// All padding classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.small-paddings {
+  padding: rem-calc(12) !important;
+}
+
+.medium-paddings {
+  padding: rem-calc(18) !important;
+}
+
+.large-paddings {
+  padding: rem-calc(32) !important;
+}
+
+// Padding After & Before classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.small-padding-after {
+  padding-bottom: rem-calc(12) !important;
+}
+
+.small-padding-before {
+  padding-top: rem-calc(12) !important;
+}
+
+.medium-padding-after {
+  padding-bottom: rem-calc(18) !important;
+}
+
+.medium-padding-before {
+  padding-top: rem-calc(18) !important;
+}
+
+.large-padding-after {
+  padding-bottom: rem-calc(32) !important;
+}
+
+.large-padding-before {
+  padding-top: rem-calc(32) !important;
+}
+
+.xlarge-padding-after {
+  padding-bottom: rem-calc(62) !important;
+}
+
+.xlarge-padding-before {
+  padding-top: rem-calc(62) !important;
+}
+
+// Padding Right & Left classes
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+.small-padding-left {
+  padding-left: rem-calc(12);
+}
+
+.medium-padding-left {
+  padding-left: rem-calc(18);
+}
+
+.large-padding-left {
+  padding-left: rem-calc(32);
+}
+
+.small-padding-right {
+  padding-right: rem-calc(12);
+}
+
+.medium-padding-right {
+  padding-right: rem-calc(18);
+}
+
+.large-padding-right {
+  padding-right: rem-calc(32);
+}
+
